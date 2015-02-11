@@ -1,0 +1,62 @@
+<link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
+body {
+	margin:0 auto;
+	width:100%;
+}	
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.my-navigation{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.my-navigation li{
+	display:inline;
+	list-style:none;
+	margin:0 5px;
+}
+	
+.my-navigation li a {
+     padding :10px;
+	
+}
+.centered {
+	text-align:center;
+
+}
+.third {
+	width:33%;
+	float:left;
+}
+.blogleft{
+	width:50%;
+	float:left;
+}
+.blogright{
+	width:50%;
+	float:right;
+}
+	
+h1{
+	font-weight:normal;
+	text-decoration:underline;
+	font-style:italic;
+}
+p{
+	text-align:justify;
+	text-indent:20px;
+	line-height:18px;
+}
+.red-text {
+	color:#ff0000;
+}
+#bg{
+	background:#ccc;
+}	
